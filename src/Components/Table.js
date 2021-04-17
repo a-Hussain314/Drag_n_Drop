@@ -6,20 +6,20 @@ import Column from './Column';
 import {customers} from "../Data/Data";
 import {SET_ALL_CARDS} from "../app/Actions/index";
 
-const Table = (props) => {
+const Table = ({SET_ALL_CARDS}) => {
 
     useEffect(()=>{
         // hold the last updated data in local storage
         // get All the data from the Data Source
         // then store it , in the redux store 
         if(window.localStorage.getItem("draggableCards")){
-            props.SET_ALL_CARDS(JSON.parse(window.localStorage.getItem("draggableCards")));
+            SET_ALL_CARDS(JSON.parse(window.localStorage.getItem("draggableCards")));
         }
         else{
-            props.SET_ALL_CARDS(customers);
+            SET_ALL_CARDS(customers);
             window.localStorage.setItem("draggableCards",JSON.stringify(customers));
         }
-    },[])
+    },[SET_ALL_CARDS])
 
     return (
         <div className="general_cont columns_cont">

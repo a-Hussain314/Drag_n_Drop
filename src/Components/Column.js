@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import { toast } from 'react-toastify';
 import { connect } from "react-redux";
 import "./Column.scss";
@@ -19,7 +19,7 @@ useEffect(()=>{
      },500)
     
     };
-},[props.store.currentDrag])
+},[props.store.currentDrag, props.level])
 
 // column body reference
 const columnBodyRef = React.createRef();
