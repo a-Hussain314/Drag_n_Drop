@@ -1,31 +1,17 @@
-# sigma/sigma.website
+# Drag_n_Drop
 
+## Description
 
+reusaable drag and drrop module with React.js
 
-## Getting Started
+## Installation
+- Clone the repo in your terminal by clicking the _green_ clone or download button at the top right and copyin the url
+- In your terminal, type ```git clone URL```
+  - replace URL with the url you copied
+  - hit enter
+- This will copy all the files from this repo down to your computer
+- In your terminal, cd into the directory you just created
+- Type ```npm install``` to install all dependencies
+- Last, but not least, type ```npm start``` to run the app locally. 
 
-Download links:
-
-SSH clone URL: ssh://git@git.jetbrains.space/urgent/sigma/sigma.website.git
-
-HTTPS clone URL: https://git.jetbrains.space/urgent/sigma/sigma.website.git
-
-
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
-
-## Prerequisites
-
-What things you need to install the software and how to install them.
-
-```
-Examples
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a production system.
-
-## Resources
-
-Add links to external resources for this project, such as CI server, bug tracker, etc.
+- To look at the code, just open up the project in your favorite code editor!
