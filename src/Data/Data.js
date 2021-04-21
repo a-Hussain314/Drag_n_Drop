@@ -7,7 +7,7 @@ export const customers = [
         id:"101"
     },
     {
-        name:"Div-Systems",
+        name:"New-Systems",
         count:"1840",
         priority : 4.5,
         level:"stage",
